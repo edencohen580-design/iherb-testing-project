@@ -1,39 +1,43 @@
-Test Case ID: TC-LOGIN-001
-Module: Login
-Title: Login attempt with incorrect password
-Type: Functional
+**Test Case ID:** TC-LOGIN-001
 
-Preconditions:
 
-A registered user account exists.
+**Module:** Login
 
-User has access to the iHerb website.
+**Title:** Login attempt with incorrect password
 
-Browser: Chrome / Safari / Firefox.
+**Type:** Functional
 
-Website language is set to Hebrew.
+**Preconditions:**
 
-Test Steps:
+1)A registered user account exists.
 
-Navigate to the iHerb website.
+2)User has access to the iHerb website.
 
-Click on “My Account” in the top navigation bar.
+3)Browser: Chrome / Safari / Firefox.
+
+4) Website language is set to Hebrew.
+
+**Test Steps:**
+
+1)Navigate to the iHerb website.
+
+2)Click on “My Account” in the top navigation bar.
 
 Enter a valid registered email address.
 
-Enter an incorrect password and repeat the attempt 4–5 times.
+4)Enter an incorrect password and repeat the attempt 4–5 times.
 
-Click the “Sign In” button.
+5)Click the “Sign In” button.
 
-Expected Result:
+**Expected Result:**
 
-The system displays a clear and readable error message.
+*The system displays a clear and readable error message.*
 
-The user is not logged in.
+*The user is not logged in.*
 
-Input fields remain active for another login attempt.
+*Input fields remain active for another login attempt.*
 
-The error message does not contain broken HTML, code fragments, or unclickable links.
+*The error message does not contain broken HTML, code fragments, or unclickable links.*
 
 Actual Result:
 
