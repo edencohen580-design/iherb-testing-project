@@ -49,8 +49,11 @@ Status: Fail
 Severity: Major
 ------------------------------------------------------------------------
 **Test Case ID:** TC-CART-002
+
 **Module:** Cart / Adding Items
+
 **Title:** Adding more items to the cart than the allowed limit
+
 **Type:** Functional
 
 **Preconditions:**
@@ -94,9 +97,13 @@ Stat1us: Fail
 Severity: Critical
 --------------------------------------------------------------------------
 **Test Case ID:** TC-SEARCH-003
+
 **Module:** Search
+
 **Title:** Search for products using Hebrew and English nutrition-related keywords
+
 **Type:** Functional + Localization
+
 
 **Preconditions:**
 
@@ -157,9 +164,13 @@ Status: Fail
 Severity: Medium
 ---------------------------------------------------------------------------
 **Test Case ID:** TC-UI-001
+
 **Module:** Responsive Layout (Mobile Safari)
+
 **Title:** Verify homepage layout on Safari mobile browser
+
 **Type:** Functional + UI + Cross-Browser (Safari)
+
 
 **Preconditions:**
 
@@ -212,9 +223,13 @@ Status: Fail
 Severity: Major
 -------------------------------------------------------------------------
 **Test Case ID:** TC-UI-002
+
 **Module:** Navigation / Brands A–Z
+
 **Title:** Brand list A–Z displayed in English while site language is Hebrew
+
 **Type:** Functional + Localization
+
 
 **Preconditions:**
 
@@ -250,9 +265,13 @@ Status: Fail
 Severity: Minor
 --------------------------------------------------------------------------
 **Test Case ID:** TC-ACCOUNT-004
+
 **Module:** Account / User Profile
+
 **Title:** Verify correct phone number formatting in the account header
+
 **Type:** UI / Localization / Formatting
+
 
 **Preconditions:**
 
@@ -303,4 +322,6 @@ Disorganized country code (+972) and local number.
 After editing profile details, the formatting sometimes changes unexpectedly.
 
 Status: Fail
+Severity: Low
+
 Severity: Low
