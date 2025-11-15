@@ -15,7 +15,7 @@
 
 3)Browser: Chrome / Safari / Firefox.
 
-4) Website language is set to Hebrew.
+4)Website language is set to Hebrew.
 
 **Test Steps:**
 
