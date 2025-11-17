@@ -1,13 +1,17 @@
 # 🧪 iHerb Website – Manual QA Testing Project
 
-This repository contains a full manual QA testing project performed on the **iHerb (il.iherb.com)** website.  
-The project includes test cases, bug reports, screenshots, a bug summary, and a test summary — all organized in a clear and professional structure.
+![Status](https://img.shields.io/badge/Project%20Status-Completed-brightgreen)  
+![Tests](https://img.shields.io/badge/Test%20Cases-Completed-blue)  
+![Bugs](https://img.shields.io/badge/Bugs%20Found-6-red)
+
+This repository contains a complete manual QA testing project performed on the **iHerb (il.iherb.com)** website.  
+It includes test cases, bug reports, screenshots, a bug summary, and a test summary — all documented and organized professionally.
 
 ---
 
-# 📌 **Project Overview**
+# 📌 Project Overview
 
-The purpose of this testing project was to examine the Hebrew version of the iHerb website and identify issues related to:
+The objective of this project was to test the Hebrew version of the iHerb website and identify issues related to:
 
 - Functional behavior  
 - Localization (Hebrew/English)  
@@ -16,57 +20,55 @@ The purpose of this testing project was to examine the Hebrew version of the iHe
 - Input validation  
 - Search engine behavior  
 
-Testing was performed manually on both desktop and mobile devices.
+Testing was performed manually on desktop and mobile devices.
 
 ---
 
-# 🗂️ **Repository Structure**
+# 🗂️ Repository Structure
 
 ```
 iherb-testing-project/
 │
 ├── docs/
-│   ├── bug-reports/          # Detailed bug reports
-│   ├── test-cases/           # All written test cases
-│   ├── screenshots/          # Screenshots for each bug
-│   ├── bug-summary.md        # Summary of all discovered bugs
-│   └── test-summary.md       # Summary of test execution results
+│   ├── bug-reports/        # Detailed bug reports
+│   ├── test-cases/         # All written test cases
+│   ├── screenshots/        # Organized screenshots (per bug)
+│   ├── bug-summary.md      # High-level summary of all bugs
+│   └── test-summary.md     # Summary of executed tests
 │
-└── README.md                 # Project overview (this file)
+└── README.md               # Project overview
 ```
 
 ---
 
-# 🧩 **What Was Tested?**
+# 🧩 What Was Tested?
 
-The following areas were covered during testing:
+### ✔ Functional Testing  
+- Login  
+- Cart behavior  
+- Search engine  
+- Error handling  
+- Checkout flow  
 
-### ✔ Functional Testing
-- Login behavior  
-- Cart limits  
-- Search functionality  
-- Checkout behavior  
-- Error messages  
-
-### ✔ Localization Testing
-- Hebrew/English UI elements  
+### ✔ Localization Testing  
+- Translated UI text  
+- RTL vs LTR  
 - Brand list translation  
-- Keyboard direction (RTL/LTR)  
 
-### ✔ UI/UX Testing
+### ✔ UI/UX Testing  
 - Layout  
 - Spacing  
-- Formatting  
-- Visual consistency  
+- Visibility  
+- Alignment and responsiveness  
 
-### ✔ Mobile Testing (Safari on iPhone)
-- Responsive layout  
-- Element positioning  
-- Overlapping components  
+### ✔ Mobile Testing (Safari on iPhone)  
+- Mobile layout  
+- Overlapping elements  
+- Correct rendering of Hebrew  
 
 ---
 
-# 🐞 **Summary of Bugs Found**
+# 🐞 Bugs Summary
 
 A total of **6 bugs** were identified:
 
@@ -77,34 +79,33 @@ A total of **6 bugs** were identified:
 | BUG-SEARCH-003 | Search | Medium | Fail |
 | BUG-MOBILE-004 | Mobile UI | Major | Fail |
 | BUG-AZ-005 | Localization | Minor | Fail |
-| BUG-PHONE-006 | Profile | Low | Fail |
+| BUG-PHONE-006 | Phone Format | Low | Fail |
 
-📝 **Full details:**  
-👉 [Bug Summary](docs/bug-summary.md)
+👉 **Full bug details:**  
+[📄 Bug Summary](docs/bug-summary.md)
 
-📂 **Screenshots available at**   **Screenshots folder:**  
-👉 [📸 Open Screenshots](docs/screenshots)
-
-
----
-
-# 📑 **Test Cases**
-
-All relevant test cases, including login, search, cart behavior, UI testing, and localization, are located here:
-
-👉 [`/docs/test-cases/`](docs/test-cases/)
+👉 **Screenshots folder:**  
+[📸 View Screenshots](docs/screenshots)
 
 ---
 
-# 🧪 **Test Summary**
+# 📑 Test Cases
 
-All test execution results, including passed/failed statistics and severity breakdown:
+All test cases, including login, cart behavior, search testing, localization, and UI tests:
 
-👉[Test Summary](docs/test-summary.md)
+👉 [`/docs/test-cases`](docs/test-cases)
 
 ---
 
-# 📷 **Screenshots**
+# 🧪 Test Summary
+
+A summary of all executed tests, including pass/fail status, severity breakdown, and observations:
+
+👉 [📄 Test Summary](docs/test-summary.md)
+
+---
+
+# 📷 Screenshots
 
 Screenshots are organized per bug:
 
@@ -118,35 +119,38 @@ docs/screenshots/
    └── phone-format/
 ```
 
-Each folder contains the images referenced in the bug reports.
+Each bug report links directly to the relevant screenshot folder.
 
 ---
 
-# 🚀 **Tools Used**
+# 🚀 Tools Used
 
 - Manual exploratory testing  
-- Chrome / Firefox / Safari Mobile  
-- Windows Desktop + iPhone (iOS Safari)  
-- GitHub for documentation & version control  
-- Markdown for professional reporting  
+- Chrome / Firefox / Safari  
+- iPhone (Mobile Safari)  
+- GitHub for documentation  
+- Markdown for structured reporting  
 
 ---
 
-# ✔ **Conclusion**
+# ✔ Conclusion
 
-This project demonstrates hands-on experience in:
-- Writing structured test cases  
-- Performing functional and localization testing  
-- Identifying defects  
-- Documenting bugs professionally  
-- Maintaining a clean GitHub testing repository  
+This project demonstrates strong knowledge in:
 
-The testing revealed multiple usability and functional issues, especially in search behavior, mobile UI responsiveness, and localization accuracy.
+- Functional testing  
+- Localization issues  
+- Bug reporting  
+- Writing detailed test cases  
+- Documenting defects professionally  
+- Managing a clean QA project on GitHub  
+
+Multiple issues were found in search behavior, mobile UI rendering, and Hebrew localization — highlighting critical user-facing defects.
 
 ---
 
-# 🙌 **Author**
+# 🙌 Author
 
 **Eden Cohen**  
-Manual QA | Web Testing | Bug Reporting | GitHub Documentation  
+Manual QA Tester  
+Web Testing · Bug Reporting · GitHub Documentation
 
