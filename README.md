@@ -83,7 +83,9 @@ A total of **6 bugs** were identified:
 👉 [Bug Summary](docs/docs/bug-summary.md)
 
 📂 **Screenshots available at:**  
-👉 `/docs/screenshots/`
+📁 **Screenshots folder:**  
+👉 [📸 Open Screenshots](docs/screenshots)
+
 
 ---
 
