@@ -80,7 +80,7 @@ A total of **6 bugs** were identified:
 | BUG-PHONE-006 | Profile | Low | Fail |
 
 📝 **Full details:**  
-👉 [Bug Summary](docs/docs/bug-summary.md)
+👉 [Bug Summary](docs/bug-summary.md)
 
 📂 **Screenshots available at**   **Screenshots folder:**  
 👉 [📸 Open Screenshots](docs/screenshots)
@@ -100,7 +100,7 @@ All relevant test cases, including login, search, cart behavior, UI testing, and
 
 All test execution results, including passed/failed statistics and severity breakdown:
 
-👉[Test Summary](docs/docs/test-summary.md)
+👉[Test Summary](docs/test-summary.md)
 
 ---
 
