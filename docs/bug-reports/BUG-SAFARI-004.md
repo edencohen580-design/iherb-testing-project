@@ -52,5 +52,5 @@
 ---
 
 **Attachments:**  
-- `docs/screenshots/mobile-ui/mobile-ui-01.png.jpg`  
-- `docs/screenshots/mobile-ui/mobile-ui-02.png.jpg`
+👉 [mobile-ui-01](../screenshots/mobile-ui/mobile-ui-01.png.jpg)  
+👉 [mobile-ui-02](../screenshots/mobile-ui/mobile-ui-02.png.jpg)
