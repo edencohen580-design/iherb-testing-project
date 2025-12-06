@@ -1,53 +1,54 @@
 **Bug ID:** BUG-MOBILE-004  
-**Title:** Mobile Safari layout appears compressed with overlapping UI elements  
+**Title:** Mobile Safari layout displays overlapping UI elements and compressed structure  
 **Module:** Mobile UI / Responsiveness  
 **Severity:** Major  
 **Priority:** High  
-**Status:** Fail   
+**Status:** Fail  
 
 ---
 
 **Environment:**  
-- Device: iPhone  
+- Device: iPhone (Safari)  
 - OS: iOS  
-- Browser: Safari  
-- Site: https://il.iherb.com  
+- Browser: Safari Mobile  
+- URL: https://il.iherb.com  
 
 ---
 
 **Preconditions:**  
-1. iPhone device  
-2. "Request Desktop Website" disabled  
+1. “Request Desktop Website” is turned **off**  
+2. Stable internet connection  
 
 ---
 
 **Steps to Reproduce:**  
-1. Open Safari on iPhone  
-2. Navigate to iHerb  
-3. Scroll through homepage  
-4. Enter a product page  
-5. Observe layout  
+1. Unlock the iPhone  
+2. Open **Safari**  
+3. Navigate to the iHerb homepage  
+4. Scroll through the homepage  
+5. Open any product or category page  
+6. Observe the layout and spacing  
 
 ---
 
 **Expected Result:**  
-- Clean mobile layout  
-- No overlapping elements  
-- Proper spacing and responsiveness  
+- The website should display a clean, responsive mobile layout  
+- UI elements should not overlap  
+- Text, images, and stickers should scale properly on mobile  
 
 ---
 
 **Actual Result:**  
-- Stickers and banners overlap  
-- Layout appears compressed  
-- Hard to read or navigate  
+- Stickers and promotional labels overlap with product images  
+- Some UI elements appear stacked on top of one another  
+- Layout is compressed and difficult to navigate  
 
 ---
 
 **Impact / Risk:**  
-- Poor mobile experience  
-- High bounce rate  
-- Users leave the site quickly  
+- Major usability issue on mobile devices  
+- Mobile users (a large percentage of shoppers) may abandon the site  
+- Reduces trust in the site’s mobile compatibility  
 
 ---
 
