@@ -64,7 +64,9 @@
 
 ### Attachments
 
-![Login Error Screenshot](../screenshots/login-error/login-error.png)
+🖼 Screenshot:  
+[login-error.png](../screenshots/login-error/login-error.png)
+
 
 
 
