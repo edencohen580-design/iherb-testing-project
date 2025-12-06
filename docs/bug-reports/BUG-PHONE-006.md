@@ -1,5 +1,5 @@
 **Bug ID:** BUG-PHONE-006  
-**Title:** Phone number displayed incorrectly with extra symbols and wrong direction  
+**Title:** Phone number displays with incorrect formatting and extra symbols  
 **Module:** User Profile / UI  
 **Severity:** Low  
 **Priority:** Low  
@@ -11,44 +11,49 @@
 - OS: Windows 11  
 - Browser: Chrome  
 - Language: Hebrew  
+- URL: https://il.iherb.com  
 
 ---
 
 **Preconditions:**  
-1. Phone number saved in the account  
-2. User logged in  
+1. User has a saved phone number in their account  
+2. User is logged into the website  
 
 ---
 
 **Steps to Reproduce:**  
-1. Log in  
-2. Go to "My Account"  
-3. Observe phone number formatting  
-4. Edit profile (optional)  
-5. Check formatting again  
+1. Log in to the iHerb website  
+2. Navigate to **My Account**  
+3. Locate the phone number shown in the header or profile section  
+4. Edit user details (optional)  
+5. Save changes and observe formatting again  
 
 ---
 
 **Expected Result:**  
-- Clean phone number formatting  
-- No extra symbols  
-- Correct RTL/LTR rendering  
+- Phone number should be displayed in a consistent, readable format  
+- No extra characters (such as "!") should appear  
+- RTL/LTR alignment should be correct for Hebrew users  
+- Format examples:  
+  - `+972-50-712-5465`  
+  - `050-712-5465`  
 
 ---
 
 **Actual Result:**  
-- Number contains extra symbols (e.g., “!”)  
-- Wrong spacing  
-- Mixed RTL/LTR  
+- Phone number contains extra symbols such as "!"  
+- Spacing is incorrect  
+- Mixed RTL/LTR direction makes it appear broken  
+- Formatting changes inconsistently after editing profile  
 
 ---
 
 **Impact / Risk:**  
-- Minor UI issue  
-- Looks unprofessional  
-- Confusing for users  
+- Minor UI defect  
+- Reduces professionalism of the profile page  
+- Could confuse users reading their contact information  
 
 ---
 
 **Attachments:**  
-- `docs/screenshots/phone-format/phone-format-problem.png`
+👉 [phone-format-problem.png](../screenshots/phone-format/phone-format-problem.png)
