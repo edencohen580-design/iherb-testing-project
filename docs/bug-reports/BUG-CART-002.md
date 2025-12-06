@@ -10,39 +10,44 @@
 **Environment:**  
 - OS: Windows 11  
 - Browser: Chrome  
+- Language: Hebrew / English  
 - URL: https://il.iherb.com  
 
 ---
 
 **Preconditions:**  
 1. User is logged in  
-2. Cart is initially empty  
+2. Cart is empty  
 
 ---
 
 **Steps to Reproduce:**  
 1. Search for any product  
-2. Add products to the cart  
-3. Continue adding beyond 15 items  
-4. Navigate to the cart  
-5. Click **“Proceed to Checkout”**  
+2. Add products to the cart one by one  
+3. Continue adding items until exceeding 15  
+4. Open the cart  
+5. Attempt to proceed to checkout  
 
 ---
 
 **Expected Result:**  
-- System should prevent adding more items OR show immediate warning  
+- The system should prevent adding more than 15 items  
+**OR**  
+- Display a clear warning message once the limit is reached  
 
 ---
 
 **Actual Result:**  
-- User can add up to 22 items without warning  
-- Only during checkout the system blocks the order  
+- User can add up to **22 items** without any warning  
+- Only at checkout the user receives an error  
+- The limitation is not enforced during product addition  
 
 ---
 
-**Impact:**  
-- High frustration  
-- Checkout failure at late stage  
+**Impact / Risk:**  
+- Users waste time adding items they cannot purchase  
+- Causes checkout frustration  
+- Reduces trust in the platform's reliability  
 
 ---
 
