@@ -55,4 +55,5 @@
 ---
 
 **Attachments:**  
-- `docs/screenshots/login-error/login-error.png`
+- `/docs/screenshots/login-error/login-error.png
+
