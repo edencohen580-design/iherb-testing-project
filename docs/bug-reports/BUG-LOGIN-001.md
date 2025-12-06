@@ -3,57 +3,55 @@
 **Module:** Login / Authentication  
 **Severity:** Major  
 **Priority:** High  
-**Status:** Fail   
+**Status:** Fail  
 
 ---
 
 **Environment:**  
 - OS: Windows 11  
-- Browser: Chrome 126  
-- Site: https://il.iherb.com  
+- Browser: Chrome 126 (Desktop)  
+- URL: https://il.iherb.com  
 - Language: Hebrew  
 
 ---
 
 **Preconditions:**  
-1. User has a valid registered iHerb account  
-2. User is logged out  
-3. Browser language set to Hebrew  
+1. User has an active iHerb account  
+2. The login page is accessible  
+3. Browser is set to Hebrew display  
 
 ---
 
 **Steps to Reproduce:**  
-1. Navigate to the iHerb homepage  
-2. Click “My Account”  
-3. Enter a valid email address  
-4. Enter an incorrect password  
-5. Click “Sign In”  
-6. Repeat incorrect login 4–5 times  
-7. Observe the error message  
+1. Navigate to the iHerb homepage.  
+2. Click **“My Account”** in the top navigation bar.  
+3. Enter a valid registered email address.  
+4. Enter an **incorrect password** (repeat 4–5 times).  
+5. Click the **“Sign In”** button.  
 
 ---
 
 **Expected Result:**  
-- A clear, readable error message should appear  
-- Support link should be clickable and properly formatted  
-- No raw HTML fragments should be visible  
+- A clear, readable error message should be displayed.  
+- No raw HTML or broken markup should appear.  
+- The support link should be clickable and correctly formatted.  
+- User should remain logged out and be able to retry login.  
 
 ---
 
 **Actual Result:**  
-- Error message displays raw HTML inside the text  
-- Support link appears as plain text and is not clickable  
-- Hebrew text is broken due to inline code  
+- Error message contains **raw HTML fragments**.  
+- Customer support link appears as **plain text** and is **not clickable**.  
+- The message appears unformatted and inconsistent with UI standards.  
 
 ---
 
-**Impact / Risk:**  
-- Users cannot understand the message  
-- Login flow becomes unclear  
-- Website appears unprofessional  
+**Impact:**  
+This issue affects usability and trust.  
+Users cannot access support easily, and the broken markup makes the system appear unstable or insecure.
 
 ---
 
 **Attachments:**  
-- `/docs/screenshots/login-error/login-error.png
-
+- Screenshot of the broken error message (HTML + non-clickable link):  
+   `../screenshots/login-error/login-error.png`
