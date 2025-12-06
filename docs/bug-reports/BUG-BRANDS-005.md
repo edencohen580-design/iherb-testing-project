@@ -11,38 +11,39 @@
 - OS: Windows 11  
 - Browser: Chrome  
 - Language: Hebrew  
+- URL: https://il.iherb.com  
 
 ---
 
 **Preconditions:**  
-1. Site language set to Hebrew  
+1. Website language is set to **Hebrew**
 
 ---
 
 **Steps to Reproduce:**  
-1. Open the iHerb Hebrew site  
-2. Hover "A–Z Brands"  
-3. Observe dropdown  
+1. Open the iHerb website in Hebrew  
+2. Hover over the **A–Z Brands** menu  
+3. Observe the dropdown list  
 
 ---
 
 **Expected Result:**  
-- Brand names translated / transliterated  
-- Toolbar language consistent  
+- Brand names should appear in Hebrew or be localized  
+- Toolbar language should be consistent across all menu items  
 
 ---
 
 **Actual Result:**  
-- Entire brand list remains in English  
-- Mixed language UI  
+- All brand names are shown only in English  
+- Mixed Hebrew/English UI reduces consistency  
 
 ---
 
 **Impact / Risk:**  
-- Confusing for Hebrew-only users  
-- Localization inconsistency  
+- Hebrew-only users cannot understand brand names  
+- Reduces trust and quality of localization  
 
 ---
 
 **Attachments:**  
-- `docs/screenshots/az-brands/az-brands-hebrew.png`
+👉 [az-brands-hebrew.png](../screenshots/az-brands/az-brands-hebrew.png)
