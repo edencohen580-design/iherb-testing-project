@@ -53,5 +53,5 @@ Users cannot access support easily, and the broken markup makes the system appea
 ---
 
 **Attachments:**  
-- Screenshot of the broken error message (HTML + non-clickable link):  
-   `../screenshots/login-error/login-error.png`
+- Screenshot:  
+  👉 [login-error.png](../screenshots/login-error/login-error.png)
