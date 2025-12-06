@@ -62,9 +62,10 @@
 
 ---
 
-**Attachments:**  
-- Screenshot of the error message with raw HTML and non-clickable link:  
-- [View Screenshot](../../screenshots/login-error/login-error.png)
+### Attachments
+
+![Login Error Screenshot](../screenshots/login-error/login-error.png)
+
 
 
 ---
