@@ -1,37 +1,48 @@
-**Bug ID:** BUG-UI-002
+**Bug ID:** BUG-AZ-005  
+**Title:** Brand A–Z menu remains in English on Hebrew site  
+**Module:** Localization / Navigation  
+**Severity:** Minor  
+**Priority:** Low  
+**Status:** Fail  
 
-**Module:** Navigation / Brands A–Z
+---
 
-**Title:** Brands list displayed in English while website is set to Hebrew
+**Environment:**  
+- OS: Windows 11  
+- Browser: Chrome  
+- Language: Hebrew  
 
-**Severity:** Minor
+---
 
-**Status:** Fail
+**Preconditions:**  
+1. Site language set to Hebrew  
 
-**Environment:**
-1) Website: iHerb (il.iherb.com)
-2) Browsers: Chrome / Safari / Firefox
-3) Language: Hebrew
+---
 
-**Preconditions:**
-1) User enters the iHerb website.
-2) Language is set to Hebrew.
-3) Top navigation bar is visible.
+**Steps to Reproduce:**  
+1. Open the iHerb Hebrew site  
+2. Hover "A–Z Brands"  
+3. Observe dropdown  
 
-**Steps to Reproduce:**
-1) Open iHerb via Google search.
-2) Ensure the website language is Hebrew.
-3) Hover over or click the “A–Z” brands option in the toolbar.
-4) Observe the brand names displayed.
+---
 
-**Expected Result:**
-1) Brands list should be localized or adapted for Hebrew users.
-2) Navigation bar in Hebrew should present content consistently in Hebrew.
+**Expected Result:**  
+- Brand names translated / transliterated  
+- Toolbar language consistent  
 
-**Actual Result:**
-1) Toolbar is in Hebrew, but all brand names appear only in English.
-2) Creates inconsistent localization experience.
+---
 
-**Attachments:**
-1) Screenshot: brands-a-z-hebrew.png
+**Actual Result:**  
+- Entire brand list remains in English  
+- Mixed language UI  
 
+---
+
+**Impact / Risk:**  
+- Confusing for Hebrew-only users  
+- Localization inconsistency  
+
+---
+
+**Attachments:**  
+- `docs/screenshots/az-brands/az-brands-hebrew.png`
