@@ -3,75 +3,56 @@
 **Module:** Login / Authentication  
 **Severity:** Major  
 **Priority:** High  
+**Status:** Fail   
 
 ---
 
 **Environment:**  
 - OS: Windows 11  
-- Browser: Chrome 126 (Desktop)  
-- URL: https://il.iherb.com  
+- Browser: Chrome 126  
+- Site: https://il.iherb.com  
 - Language: Hebrew  
-- Network: Stable home Wi-Fi  
 
 ---
 
 **Preconditions:**  
-1. User has a valid, registered iHerb account.  
-2. User is on the iHerb Hebrew website (https://il.iherb.com).  
-3. User is logged out.
+1. User has a valid registered iHerb account  
+2. User is logged out  
+3. Browser language set to Hebrew  
 
 ---
 
 **Steps to Reproduce:**  
-1. Navigate to the iHerb homepage.  
-2. Click on **"החשבון שלי" / "My Account"** in the top navigation bar.  
-3. In the login form, enter a **valid email address** of an existing account.  
-4. In the password field, enter an **incorrect password**.  
-5. Click the **"Sign In"** button.  
-6. Repeat steps 3–5 **4–5 times** with the wrong password.  
-7. Observe the error message displayed below or above the login form.
+1. Navigate to the iHerb homepage  
+2. Click “My Account”  
+3. Enter a valid email address  
+4. Enter an incorrect password  
+5. Click “Sign In”  
+6. Repeat incorrect login 4–5 times  
+7. Observe the error message  
 
 ---
 
 **Expected Result:**  
-- A **clear, user-friendly error message** should be displayed, such as:  
-  > "The email or password you entered is incorrect. Please try again or contact Customer Support."  
-- Any **link to Customer Support** should be **clickable**, visually clear, and properly formatted.  
-- The message should **not** contain raw HTML tags or technical text that a non-technical user cannot understand.  
-- The layout of the error message should align correctly with the rest of the form.
+- A clear, readable error message should appear  
+- Support link should be clickable and properly formatted  
+- No raw HTML fragments should be visible  
 
 ---
 
 **Actual Result:**  
-- The error message contains **raw HTML / code fragments**, which are visible to the user.  
-- The **Customer Support link appears as plain text** inside the message and is **not clickable**.  
-- The Hebrew sentence is **broken in the middle by the raw link text**, making the message hard to read and confusing, especially for non-technical users.  
-- Overall, the error message looks **unprofessional and unclear**, and does not properly guide the user on how to proceed.
+- Error message displays raw HTML inside the text  
+- Support link appears as plain text and is not clickable  
+- Hebrew text is broken due to inline code  
 
 ---
 
-**Reproducibility:**  
-- 100% – the issue occurs on every attempt when entering an incorrect password multiple times.
+**Impact / Risk:**  
+- Users cannot understand the message  
+- Login flow becomes unclear  
+- Website appears unprofessional  
 
 ---
 
-**Impact:**  
-- Users who mistype their password may be unable to understand what went wrong or how to get help.  
-- Non-technical users are likely to be confused by the visible HTML/code.  
-- This reduces trust in the website’s professionalism and can block successful login for some users.
-
----
-
-### Attachments
-
-🖼 Screenshot:  
-[login-error.png](../screenshots/login-error/login-error.png)
-
-
-
-
----
-
-**Notes:**  
-- The issue appears on the Hebrew version of the site.  
-- It is recommended to check if the same behavior exists in the English version as well.
+**Attachments:**  
+- `docs/screenshots/login-error/login-error.png`
