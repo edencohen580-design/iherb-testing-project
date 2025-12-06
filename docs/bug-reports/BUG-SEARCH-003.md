@@ -52,5 +52,5 @@
 ---
 
 **Attachments:**  
-- `docs/screenshots/search-issue/search-issue-hebrew.png`  
-- `docs/screenshots/search-issue/search-issue-english.png`
+👉 [search-issue-hebrew.png](../screenshots/search-issue/search-issue-hebrew.png)  
+👉 [search-issue-english.png](../screenshots/search-issue/search-issue-english.png)
